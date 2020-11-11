@@ -10,16 +10,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Basic Communication</title>
-
+    <title>Agora Upwork</title>
+    
     <link href="~/assets/common.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
    
 </head>
 <body class="agora-theme">
     <div class="navbar-fixed">
         <nav class="agora-navbar">
             <div class="nav-wrapper agora-primary-bg valign-wrapper">
-                <h5 class="left-align">Basic Communication</h5>
+                <h5 class="left-align">Agora Upwork</h5>
                 <a href="https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Web-Tutorial-1to1" class="agora-github-pin"></a>
             </div>
         </nav>
@@ -30,16 +31,16 @@
                 <div class="card" style="margin-top: 0px; margin-bottom: 0px;">
                     <div class="row card-content" style="margin-bottom: 0px;">
                         <div class="input-field">
-                            <label for="appID" class="active">App ID</label>
+                            <label for="appID" class="activeId">App ID</label>
                             <input type="text" placeholder="App ID" name="appID">
                         </div>
                         <div class="input-field">
                             <label for="channel" class="active">Channel</label>
-                            <input type="text" placeholder="channel" name="channel">
+                            <input type="text" placeholder="Channel" name="channel">
                         </div>
                         <div class="input-field">
                             <label for="token" class="active">Token</label>
-                            <input type="text" placeholder="token" name="token">
+                            <input type="text" placeholder="Token" name="token">
                         </div>
                         <div class="row" style="margin: 0">
                             <div class="col s12">
@@ -105,22 +106,16 @@
                                                 <input type="radio" class="with-gap" name="codec" value="vp8" />
                                                 <span>vp8</span>
                                             </label>
+
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                     </li>
                 </ul>
             </div>
-            <div class="col s7">
-                <div class="video-grid" id="video">
-                    <div class="video-view">
-                        <div id="local_stream" class="video-placeholder"></div>
-                        <div id="local_video_info" class="video-profile hide"></div>
-                        <div id="video_autoplay_local" class="autoplay-fallback hide"></div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </form>
     <script src="~/vendor/jquery.min.js"></script>
